@@ -1,5 +1,10 @@
+import Navbar from './Navbar'
+
 export default function App(){
-    return (
+    return (    
+        <>
+            <Navbar title="Lots of Components"/>
         <div className="bg-dark">Hello, World!</div>
+        </>
     );
 }
