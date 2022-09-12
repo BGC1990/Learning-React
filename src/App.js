@@ -11,6 +11,7 @@ export default function App(){
             <List
                 title="Guitars"
                 items={guitars}
+                background='primary'
             />
         </div>
 
