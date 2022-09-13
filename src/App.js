@@ -1,5 +1,5 @@
 import Navbar from './Navbar'
-import List from './List'
+import List from './ListClass'
 import Counter from './CounterClass'
 
 export default function App(){
@@ -7,14 +7,13 @@ export default function App(){
 
     return (    
         <>
-            <Navbar title="Getting Started With State"/>
+            <Navbar title="Controlled Inputs"/>
         <div className="container">
-            <Counter />
-            {/* <List
+            {/* <Counter /> */}
+            <List
                 title="Guitars"
                 items={guitars}
-                background='primary'
-            /> */}
+            />
         </div>
 
         </>
