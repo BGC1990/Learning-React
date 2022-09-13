@@ -1,18 +1,20 @@
 import Navbar from './Navbar'
 import List from './List'
+import Counter from './Counter'
 
 export default function App(){
     const guitars = ['Strat', 'Les Paul', 'Explorer', 'SG', 'Telecaster']
 
     return (    
         <>
-            <Navbar title="CSS and Separating JS and JSX"/>
+            <Navbar title="Getting Started With State"/>
         <div className="container">
-            <List
+            <Counter />
+            {/* <List
                 title="Guitars"
                 items={guitars}
                 background='primary'
-            />
+            /> */}
         </div>
 
         </>
